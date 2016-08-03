@@ -11,7 +11,7 @@
 5. Dans la console git bash se situer dans le repo puis -> git init -> git config --global user.name "mounier" -> git config --global user.email "dridri_du91@hotmail.fr"
 
 
-###### INITIALISATION ######
+## INITIALISATION ##
 
 # Cloner un dépot
 git clone lien_github.com
