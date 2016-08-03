@@ -20,7 +20,7 @@ git init
 git config --global user.name "mounier"
 
 ### Adresse mail github
-git config --global user.email "dridri_du91@hotmail.fr"
+git config --global user.email "adresseGitHub@hotmail.fr"
 
 ### Interface graphique git incluse
 gitk
