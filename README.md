@@ -98,7 +98,7 @@ git log
 git reset id_du_commit
 
 ### Annuler les modifications d'un fichier alors qu'on a pas encore envoyer le commit et qu'on veut restaurer le fichier tel qu'il etait au dernier commit
-### cela remplacera les changements dans votre arbres de travail avec le dernier contenu du HEAD. Les changements déjà ajoutés à l'index, aussi bien les novueaux fichiers, seront gardés.
+### Cela remplacera les changements dans votre arbres de travail avec le dernier contenu du HEAD. Les changements déjà ajoutés à l'index, aussi bien les novueaux fichiers, seront gardés.
 git checkout nom_du_fichier 
 
 ### Supprimer tous les changements et validations locaux, récuperer le dernier historique depuis le serveur et pointer la branche principale locale dessus
