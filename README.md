@@ -11,9 +11,6 @@
 
 ## INITIALISATION 
 
-### vous pouvez optionnellement définir l'éditeur que Git utilisera pour les messages commits. (Faire git commit pour l'utiliser)
-git config core.editor "'D:\Program Files\Sublime Text 3\sublime_text.exe' -w"
-
 ### Cloner un dépot
 git clone lien_github.com
 
@@ -29,6 +26,8 @@ git config --global user.email "adresseGitHub@hotmail.fr"
 ### Interface graphique git incluse
 gitk
 
+### Pour définir l'éditeur que Git utilisera pour les messages commits. (Faire git commit pour l'utiliser)
+git config core.editor "'D:\Program Files\Sublime Text 3\sublime_text.exe' -w"
 
 ## COMMANDES PRINCIPALES 
 
