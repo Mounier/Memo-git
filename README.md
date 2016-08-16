@@ -3,7 +3,7 @@
 
 1. Créer un répo distant sur github.
 2. Dans la console git bash, faire un "cd /c" -> cd jusqu'au workspace -> "cd workspace/" -> "git clone <lien repositoryGitHub.com>" puis "git remote add origin https://github.com/Mounier/mon_projet" afin de définir origin
-\n(N.B. si apres le git remote add origin, il y a une erreur du type "error: failed to push some refs to" quand on essaye de push il faut entrer la commande suivante : git pull --rebase origin master)
+ (N.B. si apres le git remote add origin, il y a une erreur du type "error: failed to push some refs to" quand on essaye de push il faut entrer la commande suivante : git pull --rebase origin master)
 3. Sur éclipse -> new java project -> décocher la case "Use default location" -> indiquer le chemin du dossier repo qui est dans workspace.
 4. Aller dans le répértoire où se trouve le répo puis modifier le gitignore -> ajouter ".classpath" ".project" "gitignore"
 5. Dans la console git bash se situer dans le repo puis -> git init -> git config --global user.name "mounier" -> git config --global user.email "adresseGitHub@hotmail.fr"
