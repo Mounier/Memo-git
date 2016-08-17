@@ -11,8 +11,11 @@
 
 ## INITIALISATION 
 
+### Definir origin
+git remote add origin http://lien_github.com
+
 ### Cloner un dépot
-git clone lien_github.com
+git clone http://lien_github.com
 
 ### Créer un nouveau dépot
 git init
